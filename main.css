@@ -1,0 +1,96 @@
+/*main formattin */
+body {
+  font-family: Jura;
+  text-align: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+#main {
+  position:absolute;
+  width: 100%;
+  height: 100%;
+  background: url(https://wallpapercave.com/wp/f5o8L33.jpg);
+}
+/*content formatting*/
+#content{
+  color: white;
+  margin: 30px 100px;
+  padding: 50px;
+  height: 600px;
+  max-height:650px;
+  max-width: 40%;
+  float:right;
+}
+#content *{
+  display: block;
+}
+
+/*nav bar*/
+#div2 {
+  background: #061d46;
+  height: 100px;
+  width: 100%;
+  line-height: 100px;
+  opacity: 0.90;
+  filter: alpha(opacity = 90%);
+}
+
+#div2 h1 {
+  float: left;
+  color: white;
+  font-weight: 400;
+  margin: 0px 30px;
+}
+
+#div2 ul {
+  float: right;
+  position: relative;
+  margin-right: 30px;
+  line-height: 50px;
+}
+
+#div2 ul li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+#div2 ul li a {
+  color: white;
+  padding: 25px;
+  text-decoration: none;
+  display: block
+}
+
+#div2 ul li:hover {
+  background: #0a2961;
+  transition: all 0.30s;
+}
+
+#div2 ul li:hover ul {
+  display: block;
+  transition: all 0.30s;
+}
+
+#div2 ul ul {
+  display: block;
+  width: 120px;
+  position: absolute;
+  display:none;
+}
+
+#div2 ul li li {
+  background-color: #0a2961;
+  display: block;
+}
+
+#div2 ul li li a {
+  padding: 20px;
+}
+
+#div2 ul li li:hover {
+  background:#061d46;
+  transition: all 0.30s;
+}
