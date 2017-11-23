@@ -43,7 +43,7 @@ body {
   height: 80px;
   width: 100%;
   line-height: 80px;
-  opacity: 0.95;
+  position: fixed;
 }
 
 #div2 h1 {
