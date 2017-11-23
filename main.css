@@ -23,7 +23,6 @@ body {
 }
 /*content formatting*/
 #content{
-  background-color: pink;
   position: relative;
   top: 80px;
   color: white;
