@@ -18,9 +18,7 @@ body {
   font-size: 1.2vw;
   position:absolute;
   width: 100%;
-  min-width: 1000px;
   height: 100%;
-  min-height: 1000px;
 }
 /*content formatting*/
 #content{
@@ -32,7 +30,6 @@ body {
   max-height:650px;
   max-width: 40%;
   float:right;
-  opacity: 0.3;
 }
 #content *{
   display: block;
@@ -40,11 +37,12 @@ body {
 
 /*nav bar*/
 #div2 {
-  background: #061d46;
+  background: #010d3f;
   height: 80px;
   width: 100%;
   line-height: 80px;
   position: fixed;
+  opacity: 0.95;
 }
 
 #div2 h1 {
@@ -77,7 +75,7 @@ body {
 }
 
 #div2 ul li:hover {
-  background: #0a2961;
+  background: #001673;
   transition: all 0.30s;
 }
 
@@ -94,8 +92,9 @@ body {
 }
 
 #div2 ul li li {
-  background-color: #0a2961;
+  background-color: #001673;
   display: block;
+  max-width: 105px;
 }
 
 #div2 ul li li a {
