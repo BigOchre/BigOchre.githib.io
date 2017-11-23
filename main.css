@@ -44,8 +44,6 @@ body {
   width: 100%;
   line-height: 80px;
   opacity: 0.95;
-  filter: alpha(opacity = 95%);
-  position: fixed;
 }
 
 #div2 h1 {
