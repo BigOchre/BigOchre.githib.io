@@ -2,7 +2,7 @@
 body {
   font-family: 'Jura', sans-serif;
   text-align: center;
-  background: url(https://wallpapercave.com/wp/f5o8L33.jpg) no-repeat center center fixed; 
+  background: url(https://github.com/BigOchre/Images/blob/master/Forest.jpg?raw=true) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -15,21 +15,21 @@ body {
 }
 /*UGHHHHHH*/
 #main {
-  font-size: 1.2vw;
+  font-size: 1.1vw;
   position:absolute;
   width: 100%;
   height: 100%;
 }
 /*content formatting*/
-#content{
 
-  margin-top: 80px;
+#content{
+  background-color: rgba(30,40,50,.7); 
+  display: inline-block;
+  margin-top: 100px;
   color: white;
-  margin-right: 1%;
-  padding: 1%;
-  max-height:650px;
-  max-width: 40%;
-  float:right;
+  padding: 2%;
+  max-height:80%;
+  max-width: 50%;
 }
 #content *{
   display: block;
@@ -37,12 +37,11 @@ body {
 
 /*nav bar*/
 #div2 {
-  background: #010d3f;
+  background-color:rgba(30,40,50,.9);
   height: 80px;
   width: 100%;
   line-height: 80px;
   position: fixed;
-  opacity: 0.95;
 }
 
 #div2 h1 {
@@ -75,7 +74,7 @@ body {
 }
 
 #div2 ul li:hover {
-  background: #001673;
+  background:rgba(57,99,97,.9);
   transition: all 0.30s;
 }
 
@@ -92,9 +91,9 @@ body {
 }
 
 #div2 ul li li {
-  background-color: #001673;
+  background-color: rgba(57,99,97,.9);
   display: block;
-  max-width: 120px;
+  max-width: 105px;
 }
 
 #div2 ul li li a {
@@ -102,6 +101,6 @@ body {
 }
 
 #div2 ul li li:hover {
-  background:#061d46;
+  background:rgba(30,40,50,.9);
   transition: all 0.30s;
 }
