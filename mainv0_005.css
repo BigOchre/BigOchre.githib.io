@@ -16,14 +16,16 @@ p,h4{
 	background-repeat: no-repeat;
 	color: #f0f0f0;
 	text-align: center;
-	padding: 20% 0;
+	padding-top: 20%;
+	padding-bottom: 20%;
 }
 #second{
 	border: solid black 5px;
 	background-color: #510303;
 	color: #f0f0f0;
 	text-align: center;
-	padding: 10% 0;
+	padding-top: 10%;
+	padding-bottom: 10%;
 	
 }
 
@@ -32,5 +34,6 @@ p,h4{
 	background-color: #0c0c0e;
 	color: #f0f0f0;
 	text-align: center;
-	padding: 10% 0;
+	padding-top: 10%;
+	padding-bottom: 10%;
 }
