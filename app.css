@@ -1,0 +1,36 @@
+
+html,body,.row {
+  height:100%;
+ 
+} 
+h1,h2,h3{
+	font-family: 'Quantico', sans-serif;
+}
+p{
+	font-family: 'Quicksand', sans-serif;
+}
+#first{
+
+ 	background-image: url(https://github.com/BigOchre/Images/blob/master/sven.jpg?raw=true);
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: #f0f0f0;
+	text-align: center;
+	padding-top: 20%;
+}
+#second{
+	border: solid black 5px;
+	background-color: #510303;
+	color: #f0f0f0;
+	text-align: center;
+	padding-top: 20%;
+	
+}
+
+#third{
+	border: solid black 5px;
+	background-color: #0c0c0e;
+	color: #f0f0f0;
+	text-align: center;
+	padding-top: 20%;
+}
