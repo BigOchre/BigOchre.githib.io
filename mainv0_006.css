@@ -16,7 +16,8 @@ p,h4{
 	background-repeat: no-repeat;
 	color: #f0f0f0;
 	text-align: center;
-
+	padding-top: 20%;
+	padding-bottom: 20%;
 }
 #second{
 	border: solid black 5px;
