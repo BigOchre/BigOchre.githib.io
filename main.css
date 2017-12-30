@@ -1,0 +1,90 @@
+
+html,body,.row {
+  height:100%;
+} 
+
+h1{
+	font-size: 12px;
+}
+h2{
+	font-size: 12px;
+}
+h3{
+	font-size: 12px;
+}
+h4{
+	font-size: 12px;
+}
+@media only screen and (max-width: 766px) {
+	h1{
+		font-size: 52px;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	h1{
+		font-size: 52px;
+	}
+	h2{
+		font-size: 32px;
+	}
+	h3{
+		font-size: 24px;
+	}
+	h4{
+		font-size: 12px;
+	}
+}
+
+
+
+h1,h2,h3{
+	font-family: 'Quantico', sans-serif;
+}
+h4{
+	font-family: 'Quicksand', sans-serif;
+}
+#first{
+   background-image: url(https://github.com/BigOchre/Images/blob/master/sven.jpg?raw=true);
+	border: none;
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: #f0f0f0;
+	text-align: center;
+	padding-top: 20%;
+}
+#second{
+	text-align: center;
+	padding: 0;	
+}
+#btn-second{
+	 height: 100%;
+	 white-space:normal;
+	 background: #3e0707;
+	 border: none;
+	 background-image: 
+}
+#btn-second:hover{
+	background: #6a0b0b;
+
+}
+
+#third{
+	border: none;
+	background-color: #0c0c0e;
+	color: #f0f0f0;
+	text-align: center;
+	padding: 0;
+}
+#btn-third{
+	height: 100%;
+	white-space:normal;
+	background:#15110d;
+	border: none;
+  overflow: hidden;
+  text-overflow: clip;
+}
+#btn-third:hover{
+	background: #15110d;
+	background-image: url("https://www.transparenttextures.com/patterns/black-linen-2.png");
+}
