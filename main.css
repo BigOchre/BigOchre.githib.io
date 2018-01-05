@@ -1,90 +1,65 @@
-
-html,body,.row {
-  height:100%;
-} 
-
-h1{
-	font-size: 12px;
-}
-h2{
-	font-size: 12px;
-}
-h3{
-	font-size: 12px;
-}
-h4{
-	font-size: 12px;
-}
-@media only screen and (max-width: 766px) {
-	h1{
-		font-size: 52px;
-	}
-}
-
-@media only screen and (min-width: 768px) {
-	h1{
-		font-size: 52px;
-	}
-	h2{
-		font-size: 32px;
-	}
-	h3{
-		font-size: 24px;
-	}
-	h4{
-		font-size: 12px;
-	}
-}
-
-
-
-h1,h2,h3{
-	font-family: 'Quantico', sans-serif;
-}
-h4{
+html,body,.container-fluid,.row{
+	height:100%;
 	font-family: 'Quicksand', sans-serif;
 }
-#first{
-   background-image: url(https://github.com/BigOchre/Images/blob/master/sven.jpg?raw=true);
-	border: none;
+@media (max-width: 767px){
+	.main,.side{
+		height: 50%;
+		padding-top: 13%;
+	}
+	button{
+		margin-top: 40px;
+		width: 200px;
+	}
+}
+@media (min-width: 768px){
+	.main,.side{
+		height: 100%;
+		padding-top: 16%;
+	}
+	button{
+		margin-top: 100px;
+		width: 200px;
+	}
+	h1{
+		font-size: 4rem;
+	}
+}
+h1{
+	font-family: 'Quantico', sans-serif;
+}
+h2{
+	margin: 0;
+}
+.main{
+	background: url('https://pre00.deviantart.net/1858/th/pre/i/2015/255/4/7/dungeons_and_dragons__minimalistic_party_wallpaper_by_conanultimate-d99abng.jpg') center center no-repeat;
 	background-size: cover;
-	background-repeat: no-repeat;
-	color: #f0f0f0;
+	box-shadow: inset 0 0 0 1000px rgba(0,0,0,.2);
 	text-align: center;
-	padding-top: 20%;
+	color: white;
 }
-#second{
+.side{
+	background: url('https://i.imgur.com/ezr0qKn.jpg') center center no-repeat;
+	background-size: cover;
+	box-shadow: inset 0 0 0 1000px rgba(0,0,0,.2);
 	text-align: center;
-	padding: 0;	
+	color:white;
 }
-#btn-second{
-	 height: 100%;
-	 white-space:normal;
-	 background: #3e0707;
-	 border: none;
-	 background-image: 
+#main-btn{
+	color: #aa4d08;
+	border-color: #aa4d08;
+	border-radius: 0;
 }
-#btn-second:hover{
-	background: #6a0b0b;
-
+#main-btn:hover{
+	color: white;
+	background: #aa4d08;
 }
-
-#third{
-	border: none;
-	background-color: #0c0c0e;
-	color: #f0f0f0;
-	text-align: center;
-	padding: 0;
+#side-btn{
+	color: white;
+	border-color: white;
+	border-radius: 0;
 }
-#btn-third{
-	height: 100%;
-	white-space:normal;
-	background:#15110d;
-	border: none;
-  overflow: hidden;
-  text-overflow: clip;
-}
-#btn-third:hover{
-	background: #15110d;
-	background-image: url("https://www.transparenttextures.com/patterns/black-linen-2.png");
+#side-btn:hover{
+	color: #526e92;
+	background: white;
 }
